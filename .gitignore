@@ -4,6 +4,10 @@
 .obsidian/cache
 .trash/
 _assets/.DS_Store
+# プラグインのコードファイルは除外（data.jsonの設定のみ管理）
+.obsidian/plugins/*/main.js
+.obsidian/plugins/*/styles.css
+.obsidian/plugins/*/manifest.json
 
 # OS
 .DS_Store
